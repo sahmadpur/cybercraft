@@ -14,6 +14,14 @@ export interface ServiceEntry {
 
 export const SERVICES: ServiceEntry[] = [
   {
+    id: "software-development",
+    slug: {
+      en: "software-development",
+      az: "proqram-təminatının-hazırlanması",
+      ru: "разработка-программного-обеспечения",
+    },
+  },
+  {
     id: "advanced-cybersecurity-services",
     slug: {
       en: "advanced-cybersecurity-services",
@@ -78,14 +86,6 @@ export const SERVICES: ServiceEntry[] = [
     },
   },
   {
-    id: "it-consulting-digital-transformation",
-    slug: {
-      en: "it-consulting-digital-transformation",
-      az: "it-konsaltinq-rəqəmsal-transformasiya",
-      ru: "ит-консалтинг-и-цифровая-трансформац",
-    },
-  },
-  {
     id: "it-equipment-smart-solutions",
     slug: {
       en: "it-equipment-smart-solutions",
@@ -131,14 +131,6 @@ export const SERVICES: ServiceEntry[] = [
       en: "virtualization-server-consolidation",
       az: "virtuallasdirma-ve-server-konsolidasiyasi",
       ru: "виртуализация-и-консолидация-сервер",
-    },
-  },
-  {
-    id: "strategic-it-consulting",
-    slug: {
-      en: "strategic-it-consulting",
-      az: "strateji-it-meslehetciliyi",
-      ru: "стратегический-ит-консалтинг",
     },
   },
 ];

@@ -18,6 +18,26 @@ export const home: HomeContent = {
       "Bizimlə əməkdaşlıq etmək ağıllı, səmərəli və fərdiləşdirilmiş rəqəmsal həllər vasitəsilə biznes məqsədlərinizə çatmağa həsr olunmuş etibarlı, peşəkar komanda ilə işləmək deməkdir.",
     ],
   },
+  product: {
+    eyebrow: "Məhsulumuz",
+    heading: "Proqram Təminatı və Süni İntellekt",
+    paragraphs: [
+      "Proqram təminatının hazırlanması bizim məhsulumuzdur. Biz fərdi proqram təminatını — veb platformalar, mobil tətbiqlər və korporativ sistemləri — başdan sona daxili komandamızla dizayn edib qururuq.",
+      "Biz süni intellekti qurduğumuz məhsulların mərkəzinə qoyuruq. Flaqman məhsulumuz DocAI təşkilatınızın sənəd arxivini axtarıla bilən, çoxdilli rəqəmsal arxivə çevirir.",
+    ],
+    aiHeading: "Daxili süni intellekt:",
+    aiPoints: [
+      "Sənəd intellekti və OCR — hər səhifə rəqəmsallaşdırılır və indekslənir",
+      "İstinadlı mənbələrlə çoxdilli semantik axtarış",
+      "Real iş saatlarına qənaət edən ağıllı proses avtomatlaşdırması",
+    ],
+    productName: "DocAI",
+    productTagline: "Hər səhifə. Hər il. Arxivləşdirilib.",
+    productUrl: "https://docai.az",
+    ctaProduct: "docai.az saytına keçid",
+    ctaService: "Proqram təminatı xidmətimiz",
+    screenshots: ["product-docai-1", "product-docai-2"],
+  },
   vendors: {
     heading: "Vendorlar",
     intro:
@@ -58,8 +78,14 @@ export const home: HomeContent = {
   solutions: {
     heading: "Kompleks İT həllər",
     intro:
-      "Biznesinizin rəqəmsal böyüməsini təmin etmək üçün nəzərdə tutulmuş tam inteqrasiya olunmuş İT həlləri təqdim edirik. Xüsusi ehtiyaclarınıza uyğunlaşdırılmış xidmət paketləri ilə biz texnoloji infrastrukturunuzu gücləndiririk, əməliyyatları optimallaşdırır və rəqabət üstünlüyü qazanmağınıza kömək edirik. Əsas xidmətlərimizə şəbəkənin qurulması və idarə edilməsi, server və bulud sistemləri, kibertəhlükəsizlik, proqram təminatının inkişafı, İT konsultasiyası və texniki dəstək daxildir",
+      "Biznesinizin rəqəmsal böyüməsini təmin etmək üçün nəzərdə tutulmuş tam inteqrasiya olunmuş İT həlləri təqdim edirik. Xüsusi ehtiyaclarınıza uyğunlaşdırılmış xidmət paketləri ilə biz texnoloji infrastrukturunuzu gücləndiririk, əməliyyatları optimallaşdırır və rəqabət üstünlüyü qazanmağınıza kömək edirik. Əsas xidmətlərimizə şəbəkənin qurulması və idarə edilməsi, server və bulud sistemləri, kibertəhlükəsizlik, proqram təminatının inkişafı və texniki dəstək daxildir",
     cards: [
+      {
+        serviceId: "software-development",
+        title: "Proqram Təminatının Hazırlanması",
+        blurb:
+          "Fərdi proqram təminatı, veb və mobil tətbiqlər və DocAI kimi süni intellektə əsaslanan məhsullar — daxili komandamız tərəfindən hazırlanır.",
+      },
       {
         serviceId: "network-solutions-optimization",
         title: "Şəbəkə Həlləri və Optimallaşdırma",
@@ -127,22 +153,10 @@ export const home: HomeContent = {
           "Bizim qabaqcıl kibertəhlükəsizlik həllərimizlə biznesinizi inkişaf edən kibertəhlükələrdən qoruyun.",
       },
       {
-        serviceId: "it-consulting-digital-transformation",
-        title: "İT Konsaltinq & Rəqəmsal Transformasiya",
-        blurb:
-          "Strateji İT planlaması, sistem təhlili və bizneslərə innovasiya və səmərəliliyi qəbul etməyə kömək etmək üçün yol xəritəsinin hazırlanması.",
-      },
-      {
         serviceId: "virtualization-server-consolidation",
         title: "Virtuallaşdırma və Server Konsolidasiyası",
         blurb:
           "VMware, Hyper-V və Proxmox kimi virtuallaşdırma platformaları ilə resursları optimallaşdırın.",
-      },
-      {
-        serviceId: "strategic-it-consulting",
-        title: "Strateji İT Məsləhətçiliyi",
-        blurb:
-          "İnnovasiya, səmərəlilik və böyüməyə təkan verən ekspert İT konsultasiyası ilə biznesinizi gücləndirin.",
       },
       {
         serviceId: "managed-it-services",

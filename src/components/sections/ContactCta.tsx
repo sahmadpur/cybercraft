@@ -18,7 +18,7 @@ export function ContactCta({ common, withMap = false }: ContactCtaProps) {
       <Container className="grid gap-12 py-20 sm:py-28 lg:grid-cols-2 lg:gap-20">
         <Reveal>
           <Eyebrow>{common.nav.contactUs}</Eyebrow>
-          <h2 className="pt-5 font-display text-display-sm font-medium text-navy md:text-display">
+          <h2 className="pt-5 font-display text-display-sm font-semibold text-navy md:text-display">
             {c.heading}
           </h2>
           <p className="max-w-md pt-5 leading-relaxed text-ink-soft">{c.body}</p>

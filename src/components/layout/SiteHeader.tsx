@@ -79,7 +79,7 @@ export function SiteHeader({ common, services }: SiteHeaderProps) {
               width={logo.width}
               height={logo.height}
               priority
-              className="h-8 w-auto"
+              className="h-9 w-auto"
             />
           </Link>
 

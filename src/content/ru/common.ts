@@ -27,7 +27,7 @@ export const common: CommonContent = {
     address:
       "Баку, Азербайджан, Баил Плаза - 4 этаж, Нефтчи, улица Гурбана Аббасова 29",
     email: "office@cybercraft.az",
-    phone: "+994102560156",
+    phone: "+994101018182",
     mapEmbedUrl:
       "https://maps.google.com/maps?q=Bayil%20Plaza&t=m&z=15&output=embed&iwloc=near",
     mapExternalUrl: "https://www.google.com/maps?q=Bayil+Plaza",

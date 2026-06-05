@@ -18,22 +18,22 @@
 
   /* Typography */
   --font-sans: var(--font-golos), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-unbounded), var(--font-golos), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-inter), var(--font-golos), ui-sans-serif, system-ui, sans-serif;
 
-  /* Display scale (Unbounded is wide — sizes tuned for 3-language headlines).
-     Used with fixed responsive breakpoints, never vw scaling. */
-  --text-display-sm: 1.65rem;
-  --text-display-sm--line-height: 1.18;
-  --text-display-sm--letter-spacing: -0.01em;
-  --text-display: 2.25rem;
-  --text-display--line-height: 1.12;
-  --text-display--letter-spacing: -0.015em;
-  --text-display-lg: 3rem;
-  --text-display-lg--line-height: 1.08;
-  --text-display-lg--letter-spacing: -0.02em;
-  --text-display-xl: 3.75rem;
-  --text-display-xl--line-height: 1.05;
-  --text-display-xl--letter-spacing: -0.02em;
+  /* Display scale (Inter is narrower than the old display face — sizes bumped
+     for 3-language headlines). Fixed responsive breakpoints, never vw scaling. */
+  --text-display-sm: 1.9rem;
+  --text-display-sm--line-height: 1.16;
+  --text-display-sm--letter-spacing: -0.02em;
+  --text-display: 2.6rem;
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.025em;
+  --text-display-lg: 3.4rem;
+  --text-display-lg--line-height: 1.06;
+  --text-display-lg--letter-spacing: -0.03em;
+  --text-display-xl: 4.25rem;
+  --text-display-xl--line-height: 1.03;
+  --text-display-xl--letter-spacing: -0.03em;
 
   /* Motion timing shared with Framer Motion variants */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);

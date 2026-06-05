@@ -62,10 +62,26 @@ export interface ServiceCardInfo {
   blurb: string;
 }
 
+/** Featured product showcase (Software Development / DocAI) on the homepage */
+export interface ProductShowcase {
+  eyebrow: string;
+  heading: string;
+  paragraphs: string[];
+  aiHeading: string;
+  aiPoints: string[];
+  productName: string;
+  productTagline: string;
+  productUrl: string;
+  ctaProduct: string;
+  ctaService: string;
+  screenshots: AssetId[];
+}
+
 export interface HomeContent {
   seo: SeoMeta;
   hero: { headline: string };
   about: { heading: string; paragraphs: string[] };
+  product: ProductShowcase;
   vendors: { heading: string; intro: string; logos: AssetId[] };
   partners: { heading: string; intro: string; logos: AssetId[] };
   solutions: { heading: string; intro: string; cards: ServiceCardInfo[] };

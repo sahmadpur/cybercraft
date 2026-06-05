@@ -29,7 +29,7 @@ export function ServiceCard({ card, slug }: ServiceCardProps) {
         </div>
       )}
       <div className="flex grow flex-col gap-2.5 p-6">
-        <h3 className="font-display text-base font-medium text-navy">
+        <h3 className="font-display text-base font-semibold text-navy">
           {card.title}
         </h3>
         {card.blurb && (

@@ -30,7 +30,7 @@ export function PageHero({ eyebrow, title, intro, children }: PageHeroProps) {
           text={title}
           as="h1"
           delay={0.1}
-          className="max-w-4xl font-display text-display-sm font-medium text-navy md:text-display lg:text-display-lg"
+          className="max-w-4xl font-display text-display-sm font-semibold text-navy md:text-display lg:text-display-lg"
         />
         {intro && (
           <StaggerGroup onMount stagger={0} delay={0.45}>

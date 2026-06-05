@@ -17,7 +17,7 @@ export function SiteFooter({ common }: { common: CommonContent }) {
               alt={logo.alt}
               width={logo.width}
               height={logo.height}
-              className="h-20 w-auto"
+              className="h-23 w-auto"
             />
           </Link>
         </div>

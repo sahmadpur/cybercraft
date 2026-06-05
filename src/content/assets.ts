@@ -1,7 +1,8 @@
 /**
- * Language-agnostic asset metadata. All files were downloaded from
- * Cybercraft's current public media (scripts/download-assets.ts) and are
- * served locally from public/assets/.
+ * Language-agnostic asset metadata, served locally from public/assets/.
+ * Logos were downloaded from Cybercraft's public media
+ * (scripts/download-assets.ts); page/service imagery is curated stock
+ * (Unsplash license — free for commercial use, no attribution required).
  */
 export interface AssetMeta {
   src: string;
@@ -54,30 +55,30 @@ export const ASSETS = {
   "partner-estet": { src: "/assets/partners/estet.webp", alt: "ESTET", width: 720, height: 418 },
   "partner-mont-azerbaijan": { src: "/assets/partners/mont-azerbaijan.webp", alt: "Mont Azerbaijan", width: 378, height: 165 },
 
-  // Page imagery
-  "image-about-us": { src: "/assets/images/about-us.webp", alt: "Cybercraft team at work", width: 1500, height: 1500 },
-  "banner-cloud-security": { src: "/assets/images/banner-cloud-security.webp", alt: "Cloud security and managed services", width: 1920, height: 400 },
-  "banner-it-team": { src: "/assets/images/banner-it-team.webp", alt: "Collaborative IT team in office", width: 1920, height: 400 },
-  "banner-monitoring": { src: "/assets/images/banner-monitoring.webp", alt: "IT professional monitoring systems", width: 1920, height: 400 },
-  "banner-server-room": { src: "/assets/images/banner-server-room.webp", alt: "Server room data center", width: 1920, height: 400 },
+  // Page imagery (curated stock, Unsplash license)
+  "image-about-us": { src: "/assets/images/about-us.webp", alt: "Cybercraft team at work", width: 1200, height: 1200 },
+  "banner-hero": { src: "/assets/images/hero-circuit.webp", alt: "Circuit board — technology infrastructure", width: 1920, height: 400 },
+
+  // Product screenshots (DocAI app)
+  "product-docai-1": { src: "/assets/products/docai-1.webp", alt: "DocAI — Ask the archive: AI answers with cited sources", width: 1600, height: 876 },
+  "product-docai-2": { src: "/assets/products/docai-2.webp", alt: "DocAI — Every page. Every year. Archived.", width: 1600, height: 876 },
 
   // Service card images (id matches services.registry.ts)
-  "service-advanced-cybersecurity-services": { src: "/assets/services/advanced-cybersecurity-services.webp", alt: "Advanced cybersecurity services", width: 662, height: 372 },
-  "service-cloud-solutions": { src: "/assets/services/cloud-solutions.webp", alt: "Cloud solutions", width: 662, height: 372 },
-  "service-collaboration-tools-unified-communications": { src: "/assets/services/collaboration-tools-unified-communications.webp", alt: "Collaboration tools and unified communications", width: 662, height: 372 },
-  "service-cyber-security-solutions": { src: "/assets/services/cyber-security-solutions.webp", alt: "Cyber security solutions", width: 662, height: 372 },
-  "service-it-sales-solutions-by-cybercraft": { src: "/assets/services/it-sales-solutions-by-cybercraft.webp", alt: "IT sales and solutions", width: 662, height: 372 },
-  "service-it-support-help-desk-services": { src: "/assets/services/it-support-help-desk-services.webp", alt: "IT support and help desk services", width: 662, height: 372 },
-  "service-it-hardware-and-software": { src: "/assets/services/it-hardware-and-software.webp", alt: "IT hardware and software", width: 662, height: 372 },
-  "service-innovation-emerging-tech": { src: "/assets/services/innovation-emerging-tech.webp", alt: "Innovation and emerging tech", width: 662, height: 372 },
-  "service-it-consulting-digital-transformation": { src: "/assets/services/it-consulting-digital-transformation.webp", alt: "IT consulting and digital transformation", width: 662, height: 372 },
-  "service-it-equipment-smart-solutions": { src: "/assets/services/it-equipment-smart-solutions.webp", alt: "IT equipment and smart solutions", width: 662, height: 372 },
-  "service-it-infrastructure-design-deployment": { src: "/assets/services/it-infrastructure-design-deployment.webp", alt: "IT infrastructure design and deployment", width: 662, height: 372 },
-  "service-managed-it-services": { src: "/assets/services/managed-it-services.webp", alt: "Managed IT services", width: 662, height: 372 },
-  "service-network-solutions-optimization": { src: "/assets/services/network-solutions-optimization.webp", alt: "Network solutions and optimization", width: 662, height: 372 },
-  "service-smart-cctv-solutions-for-modern-security": { src: "/assets/services/smart-cctv-solutions-for-modern-security.webp", alt: "Smart CCTV solutions", width: 662, height: 372 },
-  "service-virtualization-server-consolidation": { src: "/assets/services/virtualization-server-consolidation.webp", alt: "Virtualization and server consolidation", width: 662, height: 372 },
-  "service-strategic-it-consulting": { src: "/assets/services/strategic-it-consulting.webp", alt: "Strategic IT consulting", width: 662, height: 372 },
+  "service-software-development": { src: "/assets/services/software-development.webp", alt: "Software development and AI solutions", width: 1324, height: 744 },
+  "service-advanced-cybersecurity-services": { src: "/assets/services/advanced-cybersecurity-services.webp", alt: "Advanced cybersecurity services", width: 1324, height: 744 },
+  "service-cloud-solutions": { src: "/assets/services/cloud-solutions.webp", alt: "Cloud solutions", width: 1324, height: 744 },
+  "service-collaboration-tools-unified-communications": { src: "/assets/services/collaboration-tools-unified-communications.webp", alt: "Collaboration tools and unified communications", width: 1324, height: 744 },
+  "service-cyber-security-solutions": { src: "/assets/services/cyber-security-solutions.webp", alt: "Cyber security solutions", width: 1324, height: 744 },
+  "service-it-sales-solutions-by-cybercraft": { src: "/assets/services/it-sales-solutions-by-cybercraft.webp", alt: "IT sales and solutions", width: 1324, height: 744 },
+  "service-it-support-help-desk-services": { src: "/assets/services/it-support-help-desk-services.webp", alt: "IT support and help desk services", width: 1324, height: 744 },
+  "service-it-hardware-and-software": { src: "/assets/services/it-hardware-and-software.webp", alt: "IT hardware and software", width: 1324, height: 744 },
+  "service-innovation-emerging-tech": { src: "/assets/services/innovation-emerging-tech.webp", alt: "Innovation and emerging tech", width: 1324, height: 744 },
+  "service-it-equipment-smart-solutions": { src: "/assets/services/it-equipment-smart-solutions.webp", alt: "IT equipment and smart solutions", width: 1324, height: 744 },
+  "service-it-infrastructure-design-deployment": { src: "/assets/services/it-infrastructure-design-deployment.webp", alt: "IT infrastructure design and deployment", width: 1324, height: 744 },
+  "service-managed-it-services": { src: "/assets/services/managed-it-services.webp", alt: "Managed IT services", width: 1324, height: 744 },
+  "service-network-solutions-optimization": { src: "/assets/services/network-solutions-optimization.webp", alt: "Network solutions and optimization", width: 1324, height: 744 },
+  "service-smart-cctv-solutions-for-modern-security": { src: "/assets/services/smart-cctv-solutions-for-modern-security.webp", alt: "Smart CCTV solutions", width: 1324, height: 744 },
+  "service-virtualization-server-consolidation": { src: "/assets/services/virtualization-server-consolidation.webp", alt: "Virtualization and server consolidation", width: 1324, height: 744 },
 } as const satisfies Record<string, AssetMeta>;
 
 export type AssetId = keyof typeof ASSETS;

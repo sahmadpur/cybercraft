@@ -17,6 +17,26 @@ export const home: HomeContent = {
       "Partnering with us means working with a reliable, professional team dedicated to achieving your business goals through intelligent, efficient, and customized digital solutions.",
     ],
   },
+  product: {
+    eyebrow: "Our Product",
+    heading: "Software Development & AI",
+    paragraphs: [
+      "Software development is our product. We design and build custom software — web platforms, mobile applications, and enterprise systems — engineered in-house, end to end.",
+      "We put artificial intelligence at the heart of what we build. Our flagship product DocAI turns an organization's document archive into a searchable, multilingual digital record.",
+    ],
+    aiHeading: "AI built in:",
+    aiPoints: [
+      "Document intelligence & OCR — every page digitized and indexed",
+      "Multilingual semantic search with cited sources",
+      "Intelligent process automation for real working-hour savings",
+    ],
+    productName: "DocAI",
+    productTagline: "Every page. Every year. Archived.",
+    productUrl: "https://docai.az",
+    ctaProduct: "Visit docai.az",
+    ctaService: "Explore software development",
+    screenshots: ["product-docai-1", "product-docai-2"],
+  },
   vendors: {
     heading: "Vendors",
     intro:
@@ -57,8 +77,14 @@ export const home: HomeContent = {
   solutions: {
     heading: "Comprehensive IT Solutions",
     intro:
-      "We provide fully integrated IT solutions designed to drive your business’s digital growth. With service packages tailored to your specific needs, we strengthen your technological infrastructure, optimize operations, and help you gain a competitive edge. Our key services include network setup and management, server and cloud systems, cybersecurity, software development, IT consulting, and technical support",
+      "We provide fully integrated IT solutions designed to drive your business’s digital growth. With service packages tailored to your specific needs, we strengthen your technological infrastructure, optimize operations, and help you gain a competitive edge. Our key services include network setup and management, server and cloud systems, cybersecurity, software development, and technical support",
     cards: [
+      {
+        serviceId: "software-development",
+        title: "Software Development",
+        blurb:
+          "Custom software, web and mobile applications, and AI-powered products like DocAI — engineered in-house by our development team.",
+      },
       {
         serviceId: "network-solutions-optimization",
         title: "Network Solutions & Optimization",
@@ -126,22 +152,10 @@ export const home: HomeContent = {
           "Protect your business from evolving cyber threats with our cutting-edge cybersecurity solutions.",
       },
       {
-        serviceId: "it-consulting-digital-transformation",
-        title: "IT Consulting & Digital Transformation",
-        blurb:
-          "Strategic IT planning, system analysis, and roadmap development to help businesses embrace innovation and efficiency.",
-      },
-      {
         serviceId: "virtualization-server-consolidation",
         title: "Virtualization & Server Consolidation",
         blurb:
           "Optimize resources with virtualization platforms such as VMware, Hyper-V, and Proxmox.",
-      },
-      {
-        serviceId: "strategic-it-consulting",
-        title: "Strategic IT Consulting",
-        blurb:
-          "Empower your business with expert IT consulting that drives innovation, efficiency, and growth.",
       },
       {
         serviceId: "managed-it-services",

@@ -8,8 +8,14 @@ export const productSolutions: ProductSolutionsContent = {
   },
   heading: "Comprehensive IT Solutions",
   intro:
-    "We provide fully integrated IT solutions designed to drive your business’s digital growth. With service packages tailored to your specific needs, we strengthen your technological infrastructure, optimize operations, and help you gain a competitive edge. Our key services include network setup and management, server and cloud systems, cybersecurity, software development, IT consulting, and technical support",
+    "We provide fully integrated IT solutions designed to drive your business’s digital growth. With service packages tailored to your specific needs, we strengthen your technological infrastructure, optimize operations, and help you gain a competitive edge. Our key services include network setup and management, server and cloud systems, cybersecurity, software development, and technical support",
   cards: [
+    {
+      serviceId: "software-development",
+      title: "Software Development",
+      blurb:
+        "Custom software, web and mobile applications, and AI-powered products like DocAI — engineered in-house by our development team.",
+    },
     {
       serviceId: "network-solutions-optimization",
       title: "Network Solutions & Optimization",
@@ -77,22 +83,10 @@ export const productSolutions: ProductSolutionsContent = {
         "Protect your business from evolving cyber threats with our cutting-edge cybersecurity solutions.",
     },
     {
-      serviceId: "it-consulting-digital-transformation",
-      title: "IT Consulting & Digital Transformation",
-      blurb:
-        "Strategic IT planning, system analysis, and roadmap development to help businesses embrace innovation and efficiency.",
-    },
-    {
       serviceId: "virtualization-server-consolidation",
       title: "Virtualization & Server Consolidation",
       blurb:
         "Optimize resources with virtualization platforms such as VMware, Hyper-V, and Proxmox.",
-    },
-    {
-      serviceId: "strategic-it-consulting",
-      title: "Strategic IT Consulting",
-      blurb:
-        "Empower your business with expert IT consulting that drives innovation, efficiency, and growth.",
     },
     {
       serviceId: "managed-it-services",

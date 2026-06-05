@@ -1,6 +1,43 @@
 import type { ServiceContent } from "../types";
 
 export const services: Record<string, ServiceContent> = {
+  "software-development": {
+    id: "software-development",
+    seo: {
+      title: "Proqram Təminatının Hazırlanması və Aİ Həlləri – Cybercraft",
+      description:
+        "Fərdi proqram təminatı, veb və mobil tətbiqlər, korporativ sistemlər və süni intellektə əsaslanan məhsullar — Cybercraft komandası tərəfindən hazırlanır.",
+    },
+    title: "Proqram Təminatının Hazırlanması",
+    tagline:
+      "Fərdi proqram təminatı, veb və mobil tətbiqlər və süni intellektə əsaslanan məhsullar — daxili komandamız tərəfindən hazırlanır.",
+    intro: [
+      "Proqram təminatının hazırlanması bizim məhsulumuzdur. Biz real biznes problemlərini həll edən fərdi proqram təminatını dizayn edir, qurur və dəstəkləyirik — veb platformalar və mobil tətbiqlərdən tutmuş korporativ sistemlərə və ağıllı avtomatlaşdırmaya qədər. Daxili mühəndis komandamız bütün prosesə cavabdehdir: analiz, arxitektura, hazırlanma, tətbiq və uzunmüddətli dəstək.",
+      "Biz süni intellekti qurduğumuz məhsulların mərkəzinə qoyuruq. Flaqman məhsulumuz DocAI (docai.az) təşkilatınızın sənəd arxivini axtarıla bilən, çoxdilli rəqəmsal arxivə çevirir — hər səhifə indekslənir, istinad edilir və heç vaxt itirilmir.",
+    ],
+    sections: [
+      {
+        heading: "Əsas üstünlükləri:",
+        items: [
+          "Biznesinizə Uyğun: Proseslərinizə uyğunlaşdırılmış proqram təminatı — əksinə deyil — ilk gündən ölçülə bilən səmərəlilik təmin edir.",
+          "Lazımi Yerdə Süni İntellekt: Praktiki süni intellekt — sənədlərin tanınması, OCR, axtarış və avtomatlaşdırma — birbaşa iş proseslərinizə inteqrasiya olunur.",
+          "Tam Məsuliyyət: Analiz, dizayn, hazırlanma, tətbiq və dəstək üçün vahid komanda, hər mərhələdə aydın cavabdehlik.",
+          "Gələcəyə Hazır Arxitektura: Təşkilatınızla birlikdə böyüyən və mövcud sistemlərinizlə inteqrasiya olunan müasir, miqyaslana bilən texnologiyalar.",
+        ],
+      },
+      {
+        heading: "Xidmətlərimizə daxildir:",
+        items: [
+          "Fərdi Proqram Təminatının Hazırlanması: Daxili alətlərdən müştəri platformalarına qədər, dəqiq tələblərinizə uyğun dizayn edilmiş və qurulmuş biznes tətbiqləri.",
+          "Veb və Mobil Tətbiqlər: Desktop və mobil cihazlarda müasir istifadəçi təcrübəsi ilə sürətli, təhlükəsiz və etibarlı tətbiqlər.",
+          "Korporativ Sistemlər və İnteqrasiyalar: Platformalarınızı, verilənlər bazalarınızı və xidmətlərinizi vahid, avtomatlaşdırılmış iş axınında birləşdiririk.",
+          "Süni İntellekt və Ağıllı Avtomatlaşdırma: Tətbiqi Aİ həlləri — sənəd intellekti, OCR, semantik axtarış və proseslərin avtomatlaşdırılması — real iş saatlarına qənaət edir.",
+          "DocAI — Sənəd İntellekti Platforması: Flaqman məhsulumuz, təşkilatınız üçün axtarıla bilən, çoxdilli arxiv. Hər səhifə rəqəmsallaşdırılır, indekslənir və istinadlarla dərhal əldə edilə bilir.",
+          "Texniki Xidmət və Uzunmüddətli Dəstək: Təqdim etdiyimiz proqram təminatı üçün davamlı təkmilləşdirmə, monitorinq və SLA əsaslı dəstək.",
+        ],
+      },
+    ],
+  },
   "network-solutions-optimization": {
     id: "network-solutions-optimization",
     seo: {
@@ -431,43 +468,6 @@ export const services: Record<string, ServiceContent> = {
       },
     ],
   },
-  "it-consulting-digital-transformation": {
-    id: "it-consulting-digital-transformation",
-    seo: {
-      title: "İT Konsaltinq & Rəqəmsal Transformasiya – Cybercraft",
-      description:
-        "Mütəxəssis İT konsultasiyası və transformativ rəqəmsal həllər ilə biznesinizin bütün potensialını ortaya çıxarın.",
-    },
-    title: "İT Konsaltinq & Rəqəmsal Transformasiya",
-    tagline:
-      "Mütəxəssis İT konsultasiyası və transformativ rəqəmsal həllər ilə biznesinizin bütün potensialını ortaya çıxarın.",
-    intro: [
-      "Biz biznesləri İT konsaltinq və rəqəmsal transformasiyanın mürəkkəbliyi ilə istiqamətləndiririk, əməliyyatları sadələşdirmək, səmərəliliyi artırmaq və böyüməyə təkan vermək üçün innovativ texnologiyalardan istifadə etməyə kömək edirik. Mövcud sistemlərinizi optimallaşdırmaq, yeni texnologiyalar qəbul etmək və ya biznes modelinizi dəyişdirmək istəsəniz, komandamız hədəflərinizə uyğun gələn və ölçülə bilən nəticələr verən fərdiləşdirilmiş strategiyalar təqdim edir.",
-    ],
-    sections: [
-      {
-        heading: "Əsas üstünlükləri:",
-        items: [
-          "Sürətləndirilmiş İnnovasiya: Yeni məhsullar, xidmətlər və biznes modelləri yaratmağa imkan verən qabaqcıl texnologiyaları qəbul etməklə biznesin böyüməsinə təkan verin.",
-          "Əməliyyat Effektivliyi: Avtomatlaşdırma, optimallaşdırılmış iş axınları və inteqrasiya olunmuş sistemlər vasitəsilə əməliyyatları sadələşdirin və xərcləri azaldın.",
-          "Təkmilləşdirilmiş Müştəri Təcrübəsi: Rəqəmsal həllər vasitəsilə müştəriləriniz üçün daha fərdi, səmərəli və cəlbedici təcrübələr təqdim edin.",
-          "Məlumata əsaslanan qərarların qəbulu: Biznesinizə dair fikirlər əldə etmək, qərar qəbuletmə prosesini təkmilləşdirmək və strateji təşəbbüsləri irəli sürmək üçün məlumat analitikasından istifadə edin.",
-        ],
-      },
-      {
-        heading: "Xidmətlərimizə daxildir:",
-        items: [
-          "IT Strategy Consulting: Rəqabət üstünlüyü üçün texnologiyadan istifadə etməyə kömək edən, biznes məqsədlərinizi dəstəkləyən aydın İT yol xəritəsi hazırlamaq üçün sizinlə əməkdaşlıq etmək.",
-          "Rəqəmsal Transformasiya Yol Xəritəsi: Mövcud infrastrukturunuzun qiymətləndirilməsi və müştəri təcrübələrini və biznes proseslərini təkmilləşdirən rəqəmsal texnologiyaların inteqrasiyası üçün strateji planın hazırlanması.",
-          "Buludun qəbulu və inteqrasiyası: biznesinizin buluda keçidinə uyğunlaşdırılmış həllər, problemsiz miqrasiya, genişləndirilmiş miqyaslılıq və xərclərin optimallaşdırılmasını təmin etmək.",
-          "Biznes Proseslərinin Avtomatlaşdırılması: Manual prosesləri avtomatlaşdırmaq, səhvləri azaltmaq və təşkilatınızda səmərəliliyi artırmaq imkanlarının müəyyən edilməsi.",
-          "Sistem İnteqrasiyası və Optimizasiyası: Müxtəlif biznes sistemlərinizin birlikdə problemsiz işləməsini təmin etmək, məlumat axınını, əməkdaşlığı və qərar qəbul etməyi təkmilləşdirmək.",
-          "Kibertəhlükəsizlik və Risklərin İdarə Edilməsi: Güclü kibertəhlükəsizlik təcrübələri və risklərin idarə edilməsi strategiyaları ilə rəqəmsal transformasiya səyahətinizi təmin etmək üçün ekspert rəhbərliyinin təmin edilməsi.",
-          "Dəyişikliklərin İdarə Edilməsi və Təlim: Yeni sistemlərin və proseslərin uğurla mənimsənilməsini təmin etmək üçün hərtərəfli təlim və dəstək ilə dəyişiklik prosesində komandanıza dəstək olmaq.",
-        ],
-      },
-    ],
-  },
   "virtualization-server-consolidation": {
     id: "virtualization-server-consolidation",
     seo: {
@@ -502,43 +502,6 @@ export const services: Record<string, ServiceContent> = {
           "Bulud İnteqrasiyası və Hibrid Həllər: Bulud xidmətlərini virtuallaşdırılmış mühitinizə inteqrasiya edərək, yerli və bulud resurslarını birləşdirən problemsiz miqyaslama və hibrid infrastruktura imkan verir.",
           "Server Konsolidasiyası: Çoxlu fiziki serverlərin daha az, daha güclü maşınlarda birləşdirilməsi, fiziki məkanın, enerji istehlakının və idarəetmə mürəkkəbliyinin azaldılması.",
           "Virtualizasiyanın İdarə Edilməsi və Monitorinqi: Virtuallaşdırılmış infrastrukturunuzun optimal performansını təmin etmək üçün hərtərəfli monitorinq və idarəetmə alətləri təklif edərək problemin proaktiv həllinə imkan verir.",
-        ],
-      },
-    ],
-  },
-  "strategic-it-consulting": {
-    id: "strategic-it-consulting",
-    seo: {
-      title: "Strateji İT Məsləhətçiliyi – Cybercraft",
-      description:
-        "İnnovasiya, səmərəlilik və böyüməyə təkan verən ekspert İT konsultasiyası ilə biznesinizi gücləndirin.",
-    },
-    title: "Strateji İT Məsləhətçiliyi",
-    tagline:
-      "İnnovasiya, səmərəlilik və böyüməyə təkan verən ekspert İT konsultasiyası ilə biznesinizi gücləndirin.",
-    intro: [
-      "Bizim Strateji İT Məsləhətçi xidmətlərimiz bizneslərə texnologiyalarının tam potensialını açmaqda kömək etmək üçün nəzərdə tutulub. Məqsədlərinizi, çətinliklərinizi və unikal ehtiyaclarınızı anlamaq üçün sizinlə sıx əməkdaşlıq edirik, biznes strategiyanıza uyğun gələn fərdi həllər təklif edirik. İT-nin planlaşdırılması və infrastrukturun optimallaşdırılmasından rəqəmsal transformasiya və kibertəhlükəsizliyə qədər biz İT investisiyalarınızın uzunmüddətli uğuru dəstəkləməsini təmin etmək üçün ekspert rəhbərliyi təqdim edirik.",
-    ],
-    sections: [
-      {
-        heading: "Əsas üstünlükləri:",
-        items: [
-          "Təkmilləşdirilmiş Səmərəlilik və Məhsuldarlıq: Texnologiyanın optimallaşdırılması, daha yüksək səmərəliliyin, əməkdaşlığın və ümumi iş performansının artırılması vasitəsilə proseslərinizi və əməliyyatlarınızı sadələşdirin.",
-          "Xərclərin optimallaşdırılması: İT strategiyanızı biznes ehtiyaclarınıza uyğunlaşdırmaqla biz sizə əməliyyat xərclərini azaltmağa və uzunmüddətli dəyər təmin edən texnologiyaya ağıllı investisiyalar etməyə kömək edirik.",
-          "Rəqabət Üstünlüyü: Rəqabəti qabaqlamaq, innovasiyaları artırmaq və müştərilərinizə üstün məhsul və xidmətlər təqdim etmək üçün ən son texnologiyalardan və ən yaxşı İT təcrübələrindən istifadə edin.",
-          "Ölçəklənən Böyümə: İT konsaltinq xidmətlərimiz biznesinizin artan tələblərinə uyğunlaşan miqyaslana bilən həlləri dəstəkləyir, bu da problemsiz böyüməyə və genişlənməyə imkan verir.",
-        ],
-      },
-      {
-        heading: "Xidmətlərimizə daxildir:",
-        items: [
-          "İT Strategiyasının İnkişafı: Biznes məqsədlərinizə uyğunlaşan hərtərəfli İT strategiyasını hazırlamaq üçün rəhbərlik komandanızla əməkdaşlıq edin, texnologiya yol xəritənizin böyümə, səmərəlilik və rəqabət üstünlüyünü təmin etməsi.",
-          "Rəqəmsal Transformasiya Məsləhətçiliyi: Əməliyyatları modernləşdirən, müştəri təcrübələrini yaxşılaşdıran və daim inkişaf edən rəqəmsal mənzərədə ümumi çevikliyinizi artıran həllər ilə biznesinizə rəqəmsal transformasiyanı qəbul etməyə kömək edir.",
-          "Texnologiyanın Qiymətləndirilməsi və Auditləri: Mövcud İT infrastrukturunuzun hərtərəfli qiymətləndirilməsi, təkmilləşdirilməsi üçün sahələrin müəyyən edilməsi və sistemlərinizi optimallaşdırmaq, xərcləri azaltmaq və performansı artırmaq üçün təsirli tövsiyələr vermək.",
-          "Bulud Strategiyası və Miqrasiya: Miqrasiyanı sadələşdirən, bulud xidmətlərini inteqrasiya edən və miqyaslılığı, təhlükəsizliyi və qənaətcilliyi maksimuma çatdıran fərdiləşdirilmiş bulud strategiyaları ilə bulud texnologiyasını mənimsəməkdə bizneslərə kömək etmək.",
-          "Kibertəhlükəsizlik Məsləhətçiliyi: Rəqəmsal aktivlərinizin və infrastrukturunuzun təhlükəsizliyini təmin etmək, biznesinizin kibertəhlükələrdən qorunmasını və sənaye qaydalarına uyğunluğunu təmin etmək üçün ekspert məsləhətləri təklif etmək.",
-          "İT İdarəçiliyi və Risklərin İdarə Edilməsi: Texnoloji sərmayələrinizin biznes məqsədlərinə uyğun olmasını və potensial riskləri azaltmasını təmin etmək üçün İT idarəetməsi, uyğunluq və risklərin idarə edilməsi üçün ən yaxşı təcrübələr üzrə məsləhətlər.",
-          "Biznesin Davamlılığı və Fəlakət Bərpasının Planlaşdırılması: Biznesinizin İT-də yaranan nasazlıqlardan tez sağalmasını təmin etmək, dayanma müddətini minimuma endirmək və fövqəladə hallar zamanı əməliyyatların rəvan davam etməsini təmin etmək üçün strategiyalar və həllərin hazırlanması.",
         ],
       },
     ],

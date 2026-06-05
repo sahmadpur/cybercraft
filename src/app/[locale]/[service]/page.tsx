@@ -112,7 +112,7 @@ export default async function ServicePage({
             {content.sections.map((section, i) => (
               <Reveal key={i}>
                 {section.heading && (
-                  <h2 className="font-display text-xl font-medium text-navy">
+                  <h2 className="font-display text-xl font-semibold text-navy">
                     <span aria-hidden className="mr-3 inline-block size-2.5 rounded-[2px] bg-brand" />
                     {section.heading}
                   </h2>
@@ -145,7 +145,7 @@ export default async function ServicePage({
       <section className="border-t border-line bg-surface-alt">
         <Container className="py-16 sm:py-20">
           <Reveal>
-            <h2 className="font-display text-display-sm font-medium text-navy">
+            <h2 className="font-display text-display-sm font-semibold text-navy">
               {common.cta.relatedServices}
             </h2>
           </Reveal>

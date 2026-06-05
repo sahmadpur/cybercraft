@@ -80,7 +80,7 @@ export function MobileMenu({ open, onClose, common, services }: MobileMenuProps)
                 <Link
                   href="/vendors"
                   onClick={onClose}
-                  className="block rounded-lg px-3 py-3 font-display text-xl font-medium text-navy transition-colors hover:bg-brand-soft"
+                  className="block rounded-lg px-3 py-3 font-display text-xl font-semibold text-navy transition-colors hover:bg-brand-soft"
                 >
                   {common.nav.vendors}
                 </Link>
@@ -89,7 +89,7 @@ export function MobileMenu({ open, onClose, common, services }: MobileMenuProps)
                 <Link
                   href="/partners"
                   onClick={onClose}
-                  className="block rounded-lg px-3 py-3 font-display text-xl font-medium text-navy transition-colors hover:bg-brand-soft"
+                  className="block rounded-lg px-3 py-3 font-display text-xl font-semibold text-navy transition-colors hover:bg-brand-soft"
                 >
                   {common.nav.partners}
                 </Link>
@@ -99,7 +99,7 @@ export function MobileMenu({ open, onClose, common, services }: MobileMenuProps)
                   type="button"
                   onClick={() => setServicesOpen((v) => !v)}
                   aria-expanded={servicesOpen}
-                  className="flex w-full items-center justify-between rounded-lg px-3 py-3 text-left font-display text-xl font-medium text-navy transition-colors hover:bg-brand-soft"
+                  className="flex w-full items-center justify-between rounded-lg px-3 py-3 text-left font-display text-xl font-semibold text-navy transition-colors hover:bg-brand-soft"
                 >
                   {common.nav.productSolutions}
                   <span
@@ -146,7 +146,7 @@ export function MobileMenu({ open, onClose, common, services }: MobileMenuProps)
                 <Link
                   href="/contact-us"
                   onClick={onClose}
-                  className="block rounded-lg px-3 py-3 font-display text-xl font-medium text-navy transition-colors hover:bg-brand-soft"
+                  className="block rounded-lg px-3 py-3 font-display text-xl font-semibold text-navy transition-colors hover:bg-brand-soft"
                 >
                   {common.nav.contactUs}
                 </Link>

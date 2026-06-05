@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
-import { Golos_Text, Unbounded } from "next/font/google";
+import { Golos_Text, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -18,10 +18,9 @@ const golos = Golos_Text({
   subsets: ["latin", "latin-ext", "cyrillic"],
 });
 
-const unbounded = Unbounded({
-  variable: "--font-unbounded",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin", "latin-ext", "cyrillic"],
-  weight: ["400", "500", "600", "700"],
 });
 
 export function generateStaticParams() {
@@ -65,7 +64,7 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={`${golos.variable} ${unbounded.variable} h-full antialiased`}
+      className={`${golos.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
         <NextIntlClientProvider>

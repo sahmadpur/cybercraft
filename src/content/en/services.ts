@@ -1,6 +1,43 @@
 import type { ServiceContent } from "../types";
 
 export const services: Record<string, ServiceContent> = {
+  "software-development": {
+    id: "software-development",
+    seo: {
+      title: "Software Development & AI Solutions – Cybercraft",
+      description:
+        "Custom software, web and mobile applications, enterprise systems, and AI-powered products — engineered in-house by Cybercraft.",
+    },
+    title: "Software Development",
+    tagline:
+      "Custom software, web and mobile applications, and AI-powered products — engineered in-house by our development team.",
+    intro: [
+      "Software development is our product. We design, build, and maintain custom software that solves real business problems — from web platforms and mobile applications to enterprise systems and intelligent automation. Our in-house engineering team owns the full lifecycle: discovery, architecture, development, deployment, and long-term support.",
+      "We put artificial intelligence at the heart of what we build. Our flagship product DocAI (docai.az) turns an organization's document archive into a searchable, multilingual digital record — every page indexed, cited, and never lost.",
+    ],
+    sections: [
+      {
+        heading: "Key Benefits:",
+        items: [
+          "Built for Your Business: Software tailored to your processes — not the other way around — delivering measurable efficiency from day one.",
+          "AI Where It Matters: Practical artificial intelligence — document understanding, OCR, search, and automation — embedded directly into your workflows.",
+          "Full Ownership: One team for analysis, design, development, deployment, and support, with clear accountability at every stage.",
+          "Future-Proof Architecture: Modern, scalable technology stacks that grow with your organization and integrate with your existing systems.",
+        ],
+      },
+      {
+        heading: "Our Services Include:",
+        items: [
+          "Custom Software Development: Business applications designed and built around your exact requirements, from internal tools to customer-facing platforms.",
+          "Web & Mobile Applications: Fast, secure, and reliable applications with modern user experiences across desktop and mobile.",
+          "Enterprise Systems & Integrations: Connecting your platforms, databases, and services into one coherent, automated workflow.",
+          "AI & Intelligent Automation: Applied AI solutions — document intelligence, OCR, semantic search, and process automation — that save real working hours.",
+          "DocAI — Document Intelligence Platform: Our flagship product, a searchable, multilingual archive for your organization. Every page is digitized, indexed, and instantly retrievable with citations.",
+          "Maintenance & Long-Term Support: Continuous improvement, monitoring, and SLA-based support for the software we deliver.",
+        ],
+      },
+    ],
+  },
   "advanced-cybersecurity-services": {
     id: "advanced-cybersecurity-services",
     seo: {
@@ -316,43 +353,6 @@ export const services: Record<string, ServiceContent> = {
       },
     ],
   },
-  "it-consulting-digital-transformation": {
-    id: "it-consulting-digital-transformation",
-    seo: {
-      title: "IT Consulting & Digital Transformation – Cybercraft",
-      description:
-        "Unlock the full potential of your business with expert IT consulting and transformative digital solutions.",
-    },
-    title: "IT Consulting & Digital Transformation",
-    tagline:
-      "Unlock the full potential of your business with expert IT consulting and transformative digital solutions.",
-    intro: [
-      "We guide businesses through the complexities of IT consulting and digital transformation, helping you embrace innovative technologies to streamline operations, increase efficiency, and drive growth. Whether you are looking to optimize your existing systems, adopt new technologies, or transform your business model, our team provides personalized strategies that align with your goals and deliver measurable results.",
-    ],
-    sections: [
-      {
-        heading: "Key Benefits:",
-        items: [
-          "Accelerated Innovation: Drive business growth by adopting cutting-edge technologies that enable new products, services, and business models.",
-          "Operational Efficiency: Streamline operations and reduce costs through automation, optimized workflows, and integrated systems.",
-          "Enhanced Customer Experience: Deliver more personalized, efficient, and engaging experiences for your customers through digital solutions.",
-          "Data-Driven Decision Making: Leverage data analytics to gain insights into your business, improve decision-making, and drive strategic initiatives.",
-        ],
-      },
-      {
-        heading: "Our Services Include:",
-        items: [
-          "IT Strategy Consulting: Collaborating with you to develop a clear IT roadmap that supports your business objectives, helping you leverage technology for competitive advantage.",
-          "Digital Transformation Roadmap: Assessing your current infrastructure and designing a strategic plan to integrate digital technologies that enhance customer experiences and business processes.",
-          "Cloud Adoption & Integration: Helping your business transition to the cloud with tailored solutions, ensuring seamless migration, enhanced scalability, and cost optimization.",
-          "Business Process Automation: Identifying opportunities to automate manual processes, reducing errors and improving efficiency across your organization.",
-          "System Integration & Optimization: Ensuring that your various business systems work together seamlessly, improving data flow, collaboration, and decision-making.",
-          "Cybersecurity & Risk Management: Providing expert guidance on securing your digital transformation journey with robust cybersecurity practices and risk management strategies.",
-          "Change Management & Training: Supporting your team through the change process, with comprehensive training and support to ensure successful adoption of new systems and processes.",
-        ],
-      },
-    ],
-  },
   "it-equipment-smart-solutions": {
     id: "it-equipment-smart-solutions",
     seo: {
@@ -582,43 +582,6 @@ export const services: Record<string, ServiceContent> = {
           "Cloud Integration & Hybrid Solutions: Integrating cloud services into your virtualized environment, allowing for seamless scaling and hybrid infrastructure that combines on-premises and cloud resources.",
           "Server Consolidation: Consolidating multiple physical servers into fewer, more powerful machines, reducing physical space, power consumption, and management complexity.",
           "Virtualization Management & Monitoring: Offering comprehensive monitoring and management tools to ensure the optimal performance of your virtualized infrastructure, enabling proactive issue resolution.",
-        ],
-      },
-    ],
-  },
-  "strategic-it-consulting": {
-    id: "strategic-it-consulting",
-    seo: {
-      title: "Strategic IT Consulting – Cybercraft",
-      description:
-        "Empower your business with expert IT consulting that drives innovation, efficiency, and growth.",
-    },
-    title: "Strategic IT Consulting",
-    tagline:
-      "Empower your business with expert IT consulting that drives innovation, efficiency, and growth.",
-    intro: [
-      "Our Strategic IT Consulting services are designed to help businesses unlock the full potential of their technology. We work closely with you to understand your goals, challenges, and unique needs, offering tailored solutions that align with your business strategy. From IT planning and infrastructure optimization to digital transformation and cybersecurity, we provide expert guidance to ensure your IT investments support long-term success.",
-    ],
-    sections: [
-      {
-        heading: "Key Benefits:",
-        items: [
-          "Improved Efficiency & Productivity: Streamline your processes and operations through technology optimization, driving higher efficiency, collaboration, and overall business performance.",
-          "Cost Optimization: By aligning your IT strategy with your business needs, we help you reduce operational costs and make smart investments in technology that provide long-term value.",
-          "Competitive Advantage: Leverage the latest technologies and IT best practices to stay ahead of the competition, boost innovation, and deliver superior products and services to your customers.",
-          "Scalable Growth: Our IT consulting services support scalable solutions that adapt to the growing demands of your business, allowing for seamless growth and expansion.",
-        ],
-      },
-      {
-        heading: "Our Services Include:",
-        items: [
-          "IT Strategy Development: Collaborating with your leadership team to craft a comprehensive IT strategy that aligns with your business objectives, ensuring your technology roadmap drives growth, efficiency, and competitive advantage.",
-          "Digital Transformation Consulting: Helping your business embrace digital transformation with solutions that modernize operations, improve customer experiences, and enhance your overall agility in an ever-evolving digital landscape.",
-          "Technology Assessments & Audits: Conducting thorough assessments of your existing IT infrastructure, identifying areas for improvement, and providing actionable recommendations to optimize your systems, reduce costs, and enhance performance.",
-          "Cloud Strategy & Migration: Assisting businesses in adopting cloud technology with customized cloud strategies that simplify migrations, integrate cloud services, and maximize scalability, security, and cost-efficiency.",
-          "Cybersecurity Consulting: Offering expert advice on securing your digital assets and infrastructure, ensuring your business is protected against cyber threats and compliant with industry regulations.",
-          "IT Governance & Risk Management: Advising on best practices for IT governance, compliance, and risk management to ensure your technology investments align with business goals and reduce potential risks.",
-          "Business Continuity & Disaster Recovery Planning: Developing strategies and solutions to ensure your business can quickly recover from IT disruptions, minimizing downtime and ensuring operations continue smoothly in the event of an emergency.",
         ],
       },
     ],
