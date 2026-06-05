@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand — sampled from the Cybercraft logo + live-site theme CSS */
+  --color-brand: #0ddb96; /* Cybercraft spring green accent */
+  --color-brand-dark: #0bb87e; /* hover/active green */
+  --color-brand-soft: #e2fbf1; /* tinted surface for badges/eyebrows */
+  --color-navy: #000544; /* Cybercraft wordmark navy */
+
+  /* Editorial neutrals — light surfaces */
+  --color-ink: #181818; /* primary text */
+  --color-ink-soft: #494949; /* secondary text */
+  --color-ink-muted: #5c5c5c; /* metadata text */
+  --color-surface: #ffffff; /* page background */
+  --color-surface-alt: #f7f7f7; /* alternating section background */
+  --color-line: #e4e4e4; /* hairline borders */
+  --color-line-strong: #cacaca;
+
+  /* Typography */
+  --font-sans: var(--font-golos), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-unbounded), var(--font-golos), ui-sans-serif, system-ui, sans-serif;
+
+  /* Display scale (Unbounded is wide — sizes tuned for 3-language headlines).
+     Used with fixed responsive breakpoints, never vw scaling. */
+  --text-display-sm: 1.65rem;
+  --text-display-sm--line-height: 1.18;
+  --text-display-sm--letter-spacing: -0.01em;
+  --text-display: 2.25rem;
+  --text-display--line-height: 1.12;
+  --text-display--letter-spacing: -0.015em;
+  --text-display-lg: 3rem;
+  --text-display-lg--line-height: 1.08;
+  --text-display-lg--letter-spacing: -0.02em;
+  --text-display-xl: 3.75rem;
+  --text-display-xl--line-height: 1.05;
+  --text-display-xl--letter-spacing: -0.02em;
+
+  /* Motion timing shared with Framer Motion variants */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: var(--color-navy);
+}
+
+/* Visible focus for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--color-brand-dark);
+  outline-offset: 2px;
+}
+
+/* Reduced-motion safety net (Framer Motion handles the rest via useReducedMotion) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
