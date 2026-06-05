@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ArrowLink } from "@/components/buttons/ArrowButton";
 import { ServiceCard } from "@/components/cards/ServiceCard";
 import { Container } from "@/components/layout/Container";
-import { LogoGrid } from "@/components/logos/LogoGrid";
+import { LogoMarquee } from "@/components/logos/LogoMarquee";
 import { Reveal } from "@/components/motion/Reveal";
 import { StaggerGroup, StaggerItem } from "@/components/motion/Stagger";
 import { StaggerText } from "@/components/motion/StaggerText";
@@ -80,12 +80,11 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             <Eyebrow>{home.vendors.heading}</Eyebrow>
             <p className="pt-5 leading-relaxed text-ink-soft">{home.vendors.intro}</p>
           </Reveal>
-          <div className="pt-10">
-            <LogoGrid
-              logos={home.vendors.logos}
-              columns="grid-cols-3 sm:grid-cols-4 lg:grid-cols-6"
-              tileClassName="p-5"
-            />
+          <div className="pt-12">
+            <LogoMarquee logos={home.vendors.logos.slice(0, 9)} />
+            <div className="pt-10">
+              <LogoMarquee logos={home.vendors.logos.slice(9)} reverse />
+            </div>
           </div>
         </Container>
       </section>
@@ -179,12 +178,8 @@ export default async function HomePage({ params }: PageProps<"/[locale]">) {
             <Eyebrow>{home.partners.heading}</Eyebrow>
             <p className="pt-5 leading-relaxed text-ink-soft">{home.partners.intro}</p>
           </Reveal>
-          <div className="pt-10">
-            <LogoGrid
-              logos={home.partners.logos}
-              columns="grid-cols-2 sm:grid-cols-3 lg:grid-cols-5"
-              tileClassName="p-5"
-            />
+          <div className="pt-12">
+            <LogoMarquee logos={home.partners.logos} />
           </div>
         </Container>
       </section>

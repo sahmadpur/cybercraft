@@ -37,6 +37,27 @@
 
   /* Motion timing shared with Framer Motion variants */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Logo marquee */
+  --animate-marquee: marquee 45s linear infinite;
+  --animate-marquee-reverse: marquee-reverse 45s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes marquee-reverse {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
 }
 
 body {
