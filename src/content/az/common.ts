@@ -25,7 +25,7 @@ export const common: CommonContent = {
     body: "Biznesinizi qabaqcıl İThəllərlə dəyişdirməyə hazırsınız? Biznesinizin inkişafına necə kömək edə biləcəyimizi öyrənmək üçün bu gün Cybercraft ilə əlaqə saxlayın.",
     addressLabel: "Ünvan",
     address: "Bakı, Azərbaycan, Bayıl Plaza - 4-cü mərtəbə, Neftçi Q.Abbasov küç. 29",
-    email: "office@cybercraft.az",
+    email: "emin.zamanov@cybercraft.az",
     phone: "+994101018182",
     mapEmbedUrl:
       "https://maps.google.com/maps?q=Bayil%20Plaza&t=m&z=15&output=embed&iwloc=near",
@@ -38,5 +38,8 @@ export const common: CommonContent = {
     email: "Add email",
     telephone: "Telephone",
     submit: "Submit",
+    sending: "Göndərilir…",
+    success: "Təşəkkür edirik! Mesajınız göndərildi — tezliklə sizinlə əlaqə saxlayacağıq.",
+    error: "Mesajınız göndərilərkən xəta baş verdi. Yenidən cəhd edin və ya birbaşa e-poçt göndərin.",
   },
 };

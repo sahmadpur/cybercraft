@@ -21,13 +21,16 @@ export interface ContactBlock {
   mapLinkLabel: string;
 }
 
-/** Visual-only contact form labels (submission handler comes in a later phase) */
+/** Contact form labels and submission status messages */
 export interface ContactFormLabels {
   firstName: string;
   lastName: string;
   email: string;
   telephone: string;
   submit: string;
+  sending: string;
+  success: string;
+  error: string;
 }
 
 /** Nav, footer, buttons, a11y strings shared across pages of one locale */

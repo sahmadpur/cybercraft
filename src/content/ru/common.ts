@@ -26,7 +26,7 @@ export const common: CommonContent = {
     addressLabel: "Адрес",
     address:
       "Баку, Азербайджан, Баил Плаза - 4 этаж, Нефтчи, улица Гурбана Аббасова 29",
-    email: "office@cybercraft.az",
+    email: "emin.zamanov@cybercraft.az",
     phone: "+994101018182",
     mapEmbedUrl:
       "https://maps.google.com/maps?q=Bayil%20Plaza&t=m&z=15&output=embed&iwloc=near",
@@ -39,5 +39,8 @@ export const common: CommonContent = {
     email: "Add email",
     telephone: "Telephone",
     submit: "Submit",
+    sending: "Отправка…",
+    success: "Спасибо! Ваше сообщение отправлено — мы свяжемся с вами в ближайшее время.",
+    error: "При отправке сообщения произошла ошибка. Попробуйте ещё раз или напишите нам напрямую.",
   },
 };

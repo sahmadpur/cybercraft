@@ -118,17 +118,20 @@ export function ArrowButton({
   variant = "solid",
   size = "md",
   type = "submit",
+  disabled = false,
   className = "",
 }: ArrowButtonOwnProps & {
   type?: "submit" | "button";
+  disabled?: boolean;
   className?: string;
 }) {
   return (
     <m.button
       type={type}
+      disabled={disabled}
       initial="rest"
       whileHover="hover"
-      className={`${rootClasses(variant, size)} ${className}`}
+      className={`${rootClasses(variant, size)} disabled:cursor-default disabled:opacity-60 ${className}`}
     >
       <Inner label={label} variant={variant} size={size} />
     </m.button>
