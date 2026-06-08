@@ -14,6 +14,10 @@ export interface ContactBlock {
   body: string;
   addressLabel: string;
   address: string;
+  /** Name of the primary contact person shown alongside the email */
+  contactName: string;
+  /** Role/title of the primary contact person (e.g. "Commercial Director") */
+  contactRole: string;
   email: string;
   phone: string;
   mapEmbedUrl: string;

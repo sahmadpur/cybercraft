@@ -18,7 +18,7 @@ export const common: CommonContent = {
     relatedServices: "Похожие услуги",
   },
   footer: {
-    copyright: "© 2025 CYBERCRAFT | Все права защищены",
+    copyright: "© {year} CYBERCRAFT | Все права защищены",
   },
   contact: {
     heading: "Давайте поделимся",
@@ -26,6 +26,8 @@ export const common: CommonContent = {
     addressLabel: "Адрес",
     address:
       "Баку, Азербайджан, Баил Плаза - 4 этаж, Нефтчи, улица Гурбана Аббасова 29",
+    contactName: "Эмин Заманов",
+    contactRole: "Коммерческий директор",
     email: "emin.zamanov@cybercraft.az",
     phone: "+994101018182",
     mapEmbedUrl:

@@ -18,13 +18,15 @@ export const common: CommonContent = {
     relatedServices: "Əlaqəli xidmətlər",
   },
   footer: {
-    copyright: "Copyright © 2025 CYBERCRAFT | All rights reserved",
+    copyright: "Copyright © {year} CYBERCRAFT | All rights reserved",
   },
   contact: {
     heading: "Gəlin paylaşaq",
     body: "Biznesinizi qabaqcıl İThəllərlə dəyişdirməyə hazırsınız? Biznesinizin inkişafına necə kömək edə biləcəyimizi öyrənmək üçün bu gün Cybercraft ilə əlaqə saxlayın.",
     addressLabel: "Ünvan",
     address: "Bakı, Azərbaycan, Bayıl Plaza - 4-cü mərtəbə, Neftçi Q.Abbasov küç. 29",
+    contactName: "Emin Zamanov",
+    contactRole: "Kommersiya direktoru",
     email: "emin.zamanov@cybercraft.az",
     phone: "+994101018182",
     mapEmbedUrl:

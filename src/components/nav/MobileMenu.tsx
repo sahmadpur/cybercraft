@@ -154,7 +154,11 @@ export function MobileMenu({ open, onClose, common, services }: MobileMenuProps)
             </m.nav>
 
             <div className="mt-auto pt-10 text-sm text-ink-muted">
-              <p>{common.contact.email}</p>
+              <p className="text-navy">
+                {common.contact.contactName}
+                <span className="text-ink-muted"> — {common.contact.contactRole}</span>
+              </p>
+              <p className="pt-1">{common.contact.email}</p>
               <p className="pt-1">{common.contact.phone}</p>
             </div>
           </m.div>

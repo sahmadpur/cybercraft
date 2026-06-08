@@ -18,7 +18,7 @@ export const common: CommonContent = {
     relatedServices: "Related services",
   },
   footer: {
-    copyright: "Copyright © 2025 CYBERCRAFT | All rights reserved",
+    copyright: "Copyright © {year} CYBERCRAFT | All rights reserved",
   },
   contact: {
     heading: "Let's get shared",
@@ -26,6 +26,8 @@ export const common: CommonContent = {
     addressLabel: "Address",
     address:
       "Baku, Azerbaijan, Bayil Plaza - 4 Floor, Neftchi Gurban Abbasov 29 street",
+    contactName: "Emin Zamanov",
+    contactRole: "Commercial Director",
     email: "emin.zamanov@cybercraft.az",
     phone: "+994101018182",
     mapEmbedUrl:

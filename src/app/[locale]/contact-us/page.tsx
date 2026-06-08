@@ -44,6 +44,10 @@ export default async function ContactPage({
         <Reveal delay={0.1} className="flex flex-col gap-6">
           <ul className="flex flex-col divide-y divide-line rounded-2xl border border-line bg-surface px-6">
             <li className="py-4 text-sm leading-relaxed text-ink-soft">{c.address}</li>
+            <li className="py-4 text-sm leading-relaxed">
+              <span className="font-medium text-navy">{c.contactName}</span>
+              <span className="text-ink-muted"> — {c.contactRole}</span>
+            </li>
             <li className="py-4">
               <a
                 href={`mailto:${c.email}`}

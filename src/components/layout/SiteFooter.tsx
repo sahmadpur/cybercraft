@@ -6,6 +6,10 @@ import { Container } from "./Container";
 
 export function SiteFooter({ common }: { common: CommonContent }) {
   const logo = getAsset("logo-footer");
+  const copyright = common.footer.copyright.replace(
+    "{year}",
+    String(new Date().getFullYear()),
+  );
 
   return (
     <footer className="mt-auto border-t border-line bg-surface-alt">
@@ -39,6 +43,10 @@ export function SiteFooter({ common }: { common: CommonContent }) {
 
         <address className="flex max-w-xs flex-col gap-2.5 text-sm not-italic text-ink-soft">
           <span>{common.contact.address}</span>
+          <span>
+            <span className="font-medium text-navy">{common.contact.contactName}</span>
+            <span className="text-ink-muted"> — {common.contact.contactRole}</span>
+          </span>
           <a
             href={`mailto:${common.contact.email}`}
             className="w-fit font-medium text-navy underline decoration-brand decoration-2 underline-offset-4 transition-colors hover:text-brand-dark"
@@ -56,7 +64,7 @@ export function SiteFooter({ common }: { common: CommonContent }) {
 
       <div className="border-t border-line">
         <Container className="flex flex-wrap items-center justify-between gap-3 py-5 text-xs text-ink-muted">
-          <p>{common.footer.copyright}</p>
+          <p>{copyright}</p>
           <p className="inline-flex items-center gap-2">
             <span aria-hidden className="size-1.5 rounded-full bg-brand" />
             cybercraft.az
